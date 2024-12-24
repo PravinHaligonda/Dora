@@ -1,4 +1,5 @@
-`Paper Overview and key ideas:`
+# `Paper Overview and key ideas:`
+## Abstract of Paper
     This is what normally happens:
     3D content generation pipelines commanly employ Variational Autoencoders (VAE's) to encode shapes into compact latent representations for diffusion-based generation.
 
@@ -16,7 +17,11 @@
     Result they proposed:
     Dora-VAE achieves comparable recontruction quality to state-of-the-art dense XCube-VAE while requiring a letent space at least 8x samller (1280 vs. > 10000 codes)
 
+## Conclusion of paper.
+    a noval VAE designed for high-quality 3D shape compression and reconstruction. 
+    At it's core, Dora-VAE introduce sharp edge sampling to effectively capture salient geometric features, complemented by dual cross=attention architecture that enhances the dncoding of these detail-rich point clouds.
 
+    They introduced Dora-bench to evaluate VAE performance.
+    which systematically categorize shapes base on geometric complexity and introduces the SHAPE NORMAL ERROR (SNE) metric for specifically assessing the preservation of fine geometric details.
 
-
-
+    it also enhances the quality of downstram tasks by applying it to single-image 3D.
