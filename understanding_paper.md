@@ -25,3 +25,23 @@
     which systematically categorize shapes base on geometric complexity and introduces the SHAPE NORMAL ERROR (SNE) metric for specifically assessing the preservation of fine geometric details.
 
     it also enhances the quality of downstram tasks by applying it to single-image 3D.
+
+# Main Objective of paper.
+## Same as in conclusion.
+    a noval VAE designed for high-quality 3D shape compression and reconstruction. 
+    At it's core, Dora-VAE introduce sharp edge sampling to effectively capture salient geometric features, complemented by dual cross-attention architecture that enhances the decoding of these detail-rich point clouds.
+
+# Deep Dive into Sections
+1. Introduction
+2. Related work
+3. Method
+4. Experiments
+5. Application: Single Image to 3D
+6. Conclusion
+
+Dora: Sampling and Benchmarking for 3D Shape Variational Auto-Encoders
+1. More implementation details
+2. More comparison of VAE
+3. Image-to-#D Generation Comparison
+4. Limitations and Future Directions
+5. Reference
